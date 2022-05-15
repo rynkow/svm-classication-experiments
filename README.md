@@ -23,7 +23,7 @@ One of the more popular non-linear kernels. Gamma parameter denotes how far the 
 ![rbf](experiment_results/rbfSVM.png)
 
 ### Polynomial kernel SVM
-#### Kernel function: K(x, x') = (gamma*<x, x'> + coef)^dim
+#### Kernel function: K(x, x') = (gamma*<x, x'> + coef)^degree
 The gamma parameter has the same interpretation as in RBF kernel. (in the experiment the default value is used - 1/(2*dataVariance))
 ![polynomial](experiment_results/polySVM.png)
 
